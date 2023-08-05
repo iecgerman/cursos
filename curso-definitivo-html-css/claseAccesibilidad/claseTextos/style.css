@@ -1,0 +1,38 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', cursive;
+}
+.roboto-normal {
+  font-size: 100px;
+}
+.font-effect-anaglyph {
+  font-size: 100px;
+}
+.font-effect-emboss {
+  font-size: 100px;
+}
+.font-effect-fire {
+  font-size: 100px;
+}
+.font-effect-fire-animation {
+  font-size: 100px;
+}
+.font-effect-neon {
+  font-size: 100px;
+}
+.font-effect-outline {
+  font-size: 100px;
+} 
+.font-effect-shadow-multiple {
+  font-size: 100px;
+}
+.font-effect-3d {
+  font-size: 100px;
+}
+.font-effect-3d-float {
+  font-size: 100px;
+}
+
+a {
+  font-size: 100px;
+}

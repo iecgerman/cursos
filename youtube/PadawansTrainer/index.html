@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="estilos.css">
+      <link rel="stylesheet" href="button.css">
+      <title>Preguntame lo qque quieras</title>
+</head>
+<body>
+      <header>
+            <h1>Consultas online</h1>
+      </header>
+      <main>
+            <form method="post" action="mail.php">
+                  <div>
+                        <span>Tu nombre</span>
+                        <input type="text" name="nombre" autocapitalize="words" autocomplete="off">
+                  </div>
+                  <div>
+                        <span>Tu apellido</span>
+                        <input type="text" name="apellido" autocapitalize="words" autocomplete="off">
+                  </div>
+                  <div>
+                        <span>Tu Email</span>
+                        <input type="email" email="email" autocomplete="off">
+                  </div>
+                  <div>
+                        <span>Asunto del mensaje</span>
+                        <select name="asunto">
+                              <option>Comentario</option>
+                              <option>Sugerencia</option>
+                              <option>Reclamo</option>
+                              <option>Suscripcion al Twitch, así sigue subiendo la barrita verde.</option>
+                        </select>
+                  </div>
+                  <div>
+                        <span>Mensaje</span>
+                        <textarea name="mensaje" cols="80" rows="6"></textarea>
+                  </div>
+                  <button class="button" type="submit">Enviar Mensaje</button>
+
+            </form>
+      </main>
+      
+</body>
+</html>

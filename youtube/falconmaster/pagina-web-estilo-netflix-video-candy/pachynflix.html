@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./css/estilos.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+      <title>PachyFlix</title>
+</head>
+<body>
+     <header>
+           <div class="contenedor">
+                 <h2 class="logotipo">PACHYNFLIX</h2>
+                 <nav>
+                       <a href="#" class="activo">Inicio</a>
+                       <a href="#">Productos</a>
+                       <a href="#">Servicios</a>
+                       <a href="#">Blog</a>
+                       <a href="#">Contacto</a>
+                 </nav>
+           </div>
+     </header>
+     <main>
+            
+            
+            
+           <div class="pelicula-principal">
+                 <div class="contenedor">
+                       <video src="./candy.mp4" autoplay="true" loop="true" class="video"></video>      
+                       <h3 class="titulo">Candy (2022)</h3>
+                       <p class="descripcion">
+                        Candy Montgomery es una ama de casa y madre de 1980 que hizo todo bien: un buen esposo, dos hijos, una buena casa, incluso la cuidadosa planificación y ejecución de las transgresiones, pero cuando la presión de la conformidad crece dentro de ella, sus acciones piden a gritos un poco de libertad. . Hasta que alguien le dice que se calle. Con resultados mortales.
+                       </p>
+                       <!-- aqui no me salio copiandolo de fontawesome.com tuve que renombrar la class-->
+                       <button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button> <!-- aqui no me salio -->
+                       <button role="button" class="boton"><i class="fas fa-info-circle"></i>Más Información</button><!-- aqui no me salio --> 
+                 </div>
+           </div>
+
+           <div class="peliculas-recomendadas contenedor">
+                 <div class="contenedor-titulo-controles">
+                       <h3>Películas y Series Recomendadas</h3>
+                       <div class="indicadores">
+                       </div>
+                 </div>
+
+                 <div class="contenedor-principal">
+                       <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+                       
+                       <div class="contenedor-carousel">
+                             <div class="carousel">
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/1.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/2.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/3.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/4.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/5.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/6.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/7.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/8.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/9.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/3.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/1.png" alt=""></a>
+                                   </div>
+                                    <div class="pelicula">
+                                         <a href="#"><img src="img/2.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/3.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/4.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/5.png" alt=""></a>
+                                   </div>
+                                    <div class="pelicula">
+                                         <a href="#"><img src="img/6.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/7.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/1.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/2.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/3.png" alt=""></a>
+                                   </div>
+                                   <div class="pelicula">
+                                         <a href="#"><img src="img/4.png" alt=""></a>
+                                   </div>
+                             </div>
+                       </div>
+
+                       <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+                 </div>
+           </div>
+     </main>
+
+      <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>

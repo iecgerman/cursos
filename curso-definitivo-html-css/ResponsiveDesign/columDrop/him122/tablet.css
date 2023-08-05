@@ -1,0 +1,29 @@
+.c
+{
+    height: calc(30vh - 1rem);
+}
+
+.c1, .c2
+{
+    height: calc(20vh - 1rem);
+}
+
+.c1
+{
+    width: 24%;
+}
+
+.c2
+{
+    width: 74%;
+}
+
+.c3
+{
+    height: calc(25vh - 1rem);
+}
+
+.c4
+{
+    height: calc(44vh - 1rem);
+}

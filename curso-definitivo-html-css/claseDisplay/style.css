@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* body {
+    width: 100%;
+} */
+
+.block-element {
+    background-color: green;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.nav {
+    background-color: peachpuff;
+    padding: 2rem;
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

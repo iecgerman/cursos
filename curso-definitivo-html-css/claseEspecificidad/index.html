@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <title>Clase de Especificidad</title>
+    <meta name="description" content="clase # 28 - Demo de especificidad y orden en selectores">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1 id="page-title" class="title">Empresa</h1>
+        <nav>
+            <ul id="main-nav" class="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Cursos</a></li>
+                <li><a href="">Instructores</a></li>
+                <li><a href="" class="blog">Blog</a></li>
+                <!-- <li><a href="" style="background-color: orange;" class="blog">Blog</a></li> -->
+                <!-- aquí a esto se le llama ESTILO ENBEBIDO, y esta por abajo de IMPORTANT y despues de ID, CLASS TAG -->
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

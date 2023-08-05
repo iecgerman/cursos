@@ -1,0 +1,28 @@
+/* A la etiqueta div que sea padre de la etiqueta parrafo; o también se lee: "a la etiqueta parrafo
+que sea hija directa de la etiqueta div" */
+
+div > p {
+    color: red;
+}
+
+
+
+
+
+
+/* clase de hermano general (General Sibling), en el ejemplo como hermano general
+vamos a modificar todas las etiquetas de parrafo (usando una tilde ~) que tengan como
+hermano general un h2  */
+
+/* h2 ~ p {
+    color: blue;
+} */
+
+
+/* Esto se llama hermano Adyacente ó cercano (Adjacent Sibling) y se lee de la siguiente manera: 
+quiero que le pongas color rojo a todas las etiquetas de parrafo que esten cerca de 
+una etiqueta h2*/
+
+/* h2 + p {
+    color: red;
+} */

@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  text-decoration: none; /* QUIERO QUE TODAS LAS ETIQUETAS DE ANCLA NO TENGAN ESTA DECORACION DE SUBRAYADO */
+  cursor: pointer; /* SALE UNA MANITA CUANDO PASO EL MOUSE */
+}
+
+header {
+  width: 100%;
+  height: 60px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  width: 250px;
+  height: auto; /* AQUI SE PONE AUTO PORQUE TOMARA EL HEADER ESTA ARRIBA PORQUE ES SU PADRE */
+  display: flex;
+  list-style: none; /* PARA QUITAR LOS BULLETS */
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-right-section a {
+  margin-right: 10px;
+  color: #000000;
+}
+
+nav .nav-right-section .menu-icon {
+  background-image: url('https://static.thenounproject.com/png/756729-200.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-right-section img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/* MAIN SECTION */
+
+main {
+  margin-top: 150px;
+  text-align: center; /* ME CENTRO TODOS LOS SECTIONS DEL MAIN */
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-button: 35px;
+}
+
+main .main-logo img {
+  width: 300px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto; /* PARA QUE SE PUEDA POSICIONAR EN LA PARTE DE EN MEDIO */
+  margin-bottom: 35px; /* LA SECTION DE INPUT EMPUJARA UN POCO LOS BOTONES */
+}
+
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex; /* FLEX NOS AYUDA A COLOCAR LOS 3 ELEMENTOS DE FORMA LINEAL */
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none; /* NOS QUITA EL BORDE CUANDO LE DAMOS CLICK A UN INPUT */
+}
+
+main .main-input-container:hover { /* HOVER ES UN PSEUDO ELEMENTO QUE ES UN EFECTO DE CUANDO PASAS EL CURSOR Y EL ELEMENTO HACE ALGO POR EJEMPLO UNA SOMBRA */
+  box-shadow: 0 1px 6px 0 #20212447;
+  transition: 1s all;
+   /* Para que no aparezca tan rápido la sombra le ponen el atributo
+  transition: 200ms all; */
+  border-color: #dfe1e500
+}
+
+main .main-input .search-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* La palabra clave containcambiará el tamaño de la imagen de fondo para asegurarse de que permanezca completamente visible . */
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+main .main-input .micro-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+main .main-buttons {
+  width: 530px;
+  margin: 0 auto;
+}
+
+main .main-buttons div {
+  display: inline-block;
+}
+
+main .main-buttons button {
+  height: 36px;
+  background-color: #f2f2f2;
+  /* border: 1px solid #f2f2f2; */
+  /* border: 0; */
+  border: 1px solid transparent;
+  font-size: 14px;
+  color: #5f6368;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin-right: 15px;
+}
+
+main .main-buttons button:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0px 1px 1px #000001;
+  color: #222222;
+  cursor: pointer;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0; /* CON ESTO ASEGURAMOS QUE NUESTRO FOOTER VA A ESTAR HASTA ABAJO DE LA PAGINA */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+footer .footer-left {
+  justify-content: left;
+}
+
+footer .footer-right {
+  justify-content: right;
+}
+
+ footer ul li a {
+   margin: 10px;
+   color: #5f6368;
+ }

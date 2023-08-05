@@ -1,0 +1,21 @@
+extend componentes/plantilla.pug
+block contenidos
+      section.intro
+            .intro__menu
+                  h2 Menu
+                  ul
+                        each enlace in enlaces 
+                              li=enlace
+            .intro__contenido
+                  h2 #{titulos[0]}
+                  p 
+                        | Lorem ipsum dolor sit amet 
+                        | consectetur adipisicing elit. 
+                        | Repellendus error ea harum dicta. 
+                        | Nobis voluptatibus quidem impedit 
+                        | accusantium fuga alias at officia 
+                        | eum, natus voluptate eligendi. 
+                        | Neque vel praesentium aut.
+                        span Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae molestias qui, nulla itaque quibusdam quasi vel dicta quisquam ratione facere? Consequatur dolor voluptatibus officia voluptas ducimus dicta architecto deleniti error!
+                  a.boton Leer Mas
+      main.contenido 

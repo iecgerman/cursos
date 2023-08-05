@@ -1,0 +1,53 @@
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;    
+    }    
+    h1 {
+        color: purple;
+        font-family: serif;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 18px;
+        font-family: monospace;
+        /* como pueden ver ya no me uso el tipo de letra cursive debido a que un id# es prioridad 
+        sobre un elemento de tag h1 */
+    }
+
+    /* Que pasaria si pongo dos h1 y en el de abajo le pongo el font-family diferente */
+
+    h1 {
+        /* font-family: cursive; */
+        /* aqui no me pone el cursive porque lee en cascada, primero detecta el h1 que tiene 
+        verdana */
+    }
+
+    /* .title {
+        font-family: monospace; */
+    }
+
+    .nav {
+        margin-top: 10px;
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .nav li {
+        display: inline-block;
+    }
+
+    .nav a {
+        color: white;
+        background-color: turquoise;
+        padding: 5px;
+        border-radius: 2px;
+        text-decoration: none;
+    }
+
+    .nav .blog {
+        background-color: red;
+        /* background-color: red !important; */
+        /* usar el important es una mala práctica */
+    }

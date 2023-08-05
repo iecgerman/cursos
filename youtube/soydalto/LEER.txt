@@ -1,0 +1,10 @@
+este es un formulario en php para que todos los campos se registren en una
+base de datos de mysql
+
+aquí nuestro ejemplo:
+
+https://viajesvirgo.com/soydalto/
+
+Video:
+
+https://www.youtube.com/watch?v=cka0J41iJY0

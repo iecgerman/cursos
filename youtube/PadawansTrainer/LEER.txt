@@ -1,0 +1,11 @@
+Este formulario es para que todos los campos nos lleguen a un correo
+
+No nos funcionaba usando xampp tuvimos que subir todo al servidor de hostinger
+
+Aquí nuestro resultado:
+
+https://ejemplo.fumigacionesreal.com/
+
+Créditos:
+
+https://www.youtube.com/watch?v=e2bEHtN0hgs&t=15s

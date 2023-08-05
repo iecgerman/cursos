@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.body {
+    background-color: #f5ee31;
+    width: 30rem;
+    height: 40rem;
+    border: 0.5rem solid black;
+    position: relative;
+    margin: 5rem auto;
+    border-radius: 1rem;
+}
+.ojos {
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+    width: 21rem;
+    z-index: 1rem;
+}
+.ojo {
+    background-color: white;
+    position: relative;
+    border: 0.5rem solid black;
+    width: 10rem;
+    height: 10rem;
+    margin-right: -1.7rem;
+    display: inline-block;   
+    border-radius: 50%;
+}
+.ojo_externo {
+    /* tuve un error de 0.5rem y dure horas sin saber porqeu no me salia lo azul */
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.3rem solid black;
+    background-color: deepskyblue;
+    position: absolute;
+    top: 2rem;
+    left: 2.5rem;
+}
+.ojo-interno {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 3rem;
+    left: 3.5rem;
+}
+.pestana-1 {
+    width: 0.5rem;
+    /* aqui mi error era que puse 1.6 rem separado */
+    height: 1.6rem;
+    background-color: black;
+    position: relative;
+    left: 2rem;
+    bottom: 1.5rem;
+    transform: rotate(140deg);
+}
+.pestana-2 {
+    width: 0.5rem;
+    height: 1.6rem;
+    background-color: black;
+    position: relative;
+    left: 4rem;
+    bottom: 3.6rem;
+}
+.pestana-3 {
+    width: 0.5rem;
+    height: 1.6rem;
+    background-color: black ;
+    position: relative;
+    left: 6.2rem;
+    bottom: 4.8rem;
+    transform: rotate(35deg);
+    
+}
+.nariz {
+    width: 2.5rem;
+    height: 4rem;
+    background-color: #f5ee31;
+    position: absolute;
+    top: 10rem;
+    left: 12rem;
+    border: 0.5rem solid black;
+    border-bottom: 0.5em solid transparent;
+    border-radius: 42.5%;
+}
+.boca {
+    width: 20rem;
+    height: 8rem;
+    background: transparent;
+    position: absolute;
+    top: 11rem;
+    left: 3.5rem;
+    border-radius: 50%;
+    /* Sigo sin entender para que sirve el z-index */
+    z-index: 11;
+    border-bottom: 0.5rem solid black;
+}
+.dientes {
+    position: relative;
+    top: 7.5rem;
+    left: 7.5rem;
+}
+.diente {
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: white;
+    border: 0.35rem solid black;
+    display: inline-block;
+}
+.mejilla-primera {
+    width: 3rem;
+    height: 2rem;
+    background: transparent;    
+    position: absolute;
+    top: 3rem;
+    left: -1.3rem;
+    border: 0.3rem solid #f1592a;
+    border-bottom: transparent;
+    border-radius: 2rem;
+    display: inline-block;
+}
+.mejilla-segunda {
+    width: 3rem;
+    height: 2rem;
+    background: transparent;    
+    position: absolute;
+    top: 3rem;
+    right: -1.3rem;
+    border: 0.3rem solid #f1592a;
+    border-bottom: transparent;
+    border-radius: 2rem;
+    display: inline-block;
+}
+.camisa {
+    width: 30rem;
+    height: 7rem;
+    background-color: white;
+    position: relative;
+    top: 25rem;
+    left: -0.5rem;
+    border: 0.5rem solid black;
+}
+.pantalon {
+    width: 30rem;
+    height: 8rem;
+    background-color: saddlebrown;
+    position: relative;
+    border: 0.5rem solid black;
+    left: -0.5rem;
+    top: 24.5rem;
+    /* border-bottom: 0.5rem; */
+    border-radius: 1rem;
+}
+
+.corbata-2 {
+    width: 8rem;
+    height: 8rem;
+    background-color: red;
+    position: absolute;
+    border: 0.5rem solid black;
+    left: 10rem;
+    top: 31rem;
+    transform: rotate(45deg);
+}
+.cintos {
+    position: relative;
+    top: 3rem;
+}
+.cinto-1 {
+    width: 4rem;
+    height: 1rem;
+    background-color: black;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    position: relative;
+}
+.cinto-2 {
+    width: 4rem;
+    height: 1rem;
+    background-color: black;
+    display: inline-block;
+    top: 3rem;
+    left: 3rem;
+    position: relative;
+}
+.cinto-3 {
+    width: 4rem;
+    height: 1rem;
+    background-color: black;
+    display: inline-block; 
+    top: 3rem;
+    left: 8rem;
+    position: relative;   
+}
+.cinto-4 {
+    width: 4rem;
+    height: 1rem;
+    background-color: black;
+    display: inline-block;
+    top: 3rem;
+    left: 10rem;
+    position: relative; 
+}

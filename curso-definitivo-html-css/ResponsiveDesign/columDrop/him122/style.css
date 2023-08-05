@@ -1,0 +1,64 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(./imagenes/fondo_ladrillos.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* body{
+    background-image: url(./imagenes/polka-dots.png);
+    background-repeat: repeat;
+} */
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    height: 100vh;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.c
+{
+    width: 100%;
+    /* min-width: 1500px; */
+    height: calc(24vh - 3rem);
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+
+.c1
+{
+    background-color: #c72929;
+}
+
+.c2
+{
+    background-color: #df6060;
+}
+
+.c3
+{
+    background-color: #e4b342;
+}
+
+.c4
+{
+    background-color: #a0db32;
+    margin: 0;
+}

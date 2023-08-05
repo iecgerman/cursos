@@ -1,0 +1,26 @@
+.c
+{
+    height: calc(20vh - 1rem);
+    margin-bottom: 1rem;
+}
+
+.c1
+{
+    width: 19%;
+}
+
+.c2
+{
+    width: 29%;
+}
+
+.c3
+{
+    width: 49%;
+}
+
+.c4
+{
+    height: calc(74vh - 1rem);
+    margin-bottom: 0;
+}
