@@ -1,0 +1,37 @@
+/* les recomiendo este juego ,en donde practicaran la escritura de codigo css grid, es una versión similar a la de Flexbox Froggy
+https://flexboxfroggy.com/#es
+
+Este es el link del grid garden:
+
+https://cssgridgarden.com/#es */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+font-size: 62.5%;
+font-family: 'DM Sans', sans-serif;
+}
+/* */
+.contenedor {
+border: 5px solid #e1bee7;
+background-color: #fff1ff;
+display: grid;  
+/*grid-template-columns: 100px 200px 300px;  nos dice cuantas columnas va tener nuestra grila y el tamaño de cada una */
+grid-template-rows: 100px 200px;
+/* grid-template-rows: 150px 250px; */
+/*grid-auto-rows: 150px;  así automáticamente te dará el alto de las filas */
+grid-auto-columns: 100px;
+grid-auto-flow: column;
+/* row-gap: 15px; es el tamaño del espacio entre la brecha de cada fila 
+column-gap: 15px; */
+gap: 40px; /*es para usar el mismo espaciado en filas y en columnas */
+}
+
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
