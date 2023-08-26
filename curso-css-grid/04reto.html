@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Propiedades del Contenedor</title>
+      <!-- <link rel="stylesheet" href="css/04reto.css"> -->
+<style>
+      * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+
+SIEMPRE SE ME OLVIDA ESTO:
+
+Propiedades para la alineación de los items (elementos):
+
+Justify-items
+Align-items
+Place-items
+
+Propiedades para la alineación del container(El Contenedor):
+
+Justify-content
+Align-content
+Place-content
+
+Propiedades para la alineación de un solo item individual
+
+Justify-self
+Align-self
+Place-self
+
+*/
+
+body {
+    display: grid;
+    place-content: center;  /* con esto centramos el contenedor tanto horizontal como vertical  */
+    /* justify-content: center; */
+    /* align-content: center; */
+    width: 100vh;
+    height: 100vh;
+    background-color: bisque;
+    
+    
+}
+.contenedor {
+    display: grid;
+    place-items: center; /*  con esto centramos los items (los numeros) en el centro de cada caja */
+    /* justify-items: end; */
+    /* align-items: end; */
+    width: 320px;
+    height: 320px;            
+    /* background-color: greenyellow;          */
+    gap: 20px;
+    grid-template-columns: 150px 150px; 
+    grid-auto-rows: 150px;
+    background-color: #3a630d;    
+}
+.item {
+    display: grid;
+    place-items: end;
+    background-color: greenyellow;
+    font-size: 4rem;
+}
+.item span {
+    display: block;
+    height: 130px;
+    width: 130px;
+    /* background-color: #a81e1e; */
+}
+.item-center {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+
+</style>
+</head>
+<body>
+      <div class="contenedor">
+            <div class="item"><span>1</span></div>
+            <div class="item"><span>2</span></div>
+            <div class="item"><span>3</span></div>
+            <div class="item"><span>4</span></div>
+            <div class="item-center"></div>
+      </div>      
+</body>
+</html>
+
+<!-- /* 
+
+SIEMPRE SE ME OLVIDA ESTO:
+
+Propiedades para la alineación de los items (elementos):
+
+Justify-items
+Align-items
+Place-items
+
+Propiedades para la alineación del container(El Contenedor):
+
+Justify-content
+Align-content
+Place-content
+
+Propiedades para la alineación de un solo item individual
+
+Justify-self
+Align-self
+Place-self
+
+*/ -->

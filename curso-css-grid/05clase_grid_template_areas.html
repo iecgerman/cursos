@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Propiedades del Contenedor</title>
+<style>
+    * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+    }
+    html {
+            font-size: 62.5%;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: bold;
+            color: white;
+    }
+      .contenedor {
+            border: 5px solid #F55196;        
+            background-color: #FDD8E8;
+            display: grid;
+            grid-template-columns: 250px 250px 250px; 
+            grid-template-rows: 150px 150px 150px;
+            grid-template-areas: 
+            "header header header"
+            "side main main"
+            "side main main";
+            place-content: center;
+      }
+      .item {
+            display: grid;
+            font-size: 4rem;
+            place-content: center;
+      }
+      .item-1 {
+            border: 5px solid #F97B4D;
+            background-color: #F44708;
+            grid-area: header;
+
+      }
+      .item-2 {
+            border: 5px solid #8DC133;
+            background-color: #688E26;
+            grid-area: side;
+      }
+      .item-3 {
+            border: 5px solid #FCC25F;
+            background-color: #FAA613;
+            grid-area: main;
+      }
+</style>
+</head>
+<body>
+      <div class="contenedor">
+            <div class="item item-1">Header</div>
+            <div class="item item-2">Side Bar</div>
+            <div class="item item-3">Main Contain</div>
+      </div>      
+</body>
+</html>

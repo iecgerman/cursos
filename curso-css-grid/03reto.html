@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Reto de Clase 3 - Propiedades del Contenedor</title>
+      <!-- <link rel="stylesheet" href="css/03reto.css"> -->
+<style>
+      * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+}
+html {
+      font-family: sans-serif;            
+}
+.contenedor {
+      /* border: 5px solid #e1bee7; */
+      background-color: #fff1ff;
+      display: grid;           
+      grid-template-rows: 200px 200px 200px; 
+      grid-auto-columns: 200px;
+      grid-auto-flow: column;
+      gap: 20px;
+      place-content: center;
+}
+.item {
+      /* border: 5px solid #00bcd4; */
+      background-color: greenyellow;
+      font-size: 4rem;
+      display: grid;
+      justify-items: end;
+      align-items: end;
+}
+.item:nth-child(2),
+.item:nth-child(5) {
+      background-color: rgb(129, 214, 26);
+}
+.item:nth-child(3),
+.item:nth-child(6) {
+      background-color: #0cae2fec;
+}
+span {
+background-color: #337900;
+color: white;
+padding: 10px 25px;
+}
+</style>
+</head>
+<body>
+      <div class="contenedor">            
+            <div class="item"><span>1</span></div>
+            <div class="item"><span>2</span></div>
+            <div class="item"><span>3</span></div>
+            <div class="item"><span>4</span></div>
+            <div class="item"><span>5</span></div>
+            <div class="item"><span>6</span></div>
+      </div>      
+</body>
+</html>
